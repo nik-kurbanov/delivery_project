@@ -24,9 +24,19 @@ a:hover{
     color: #FF5634;
 }
 
+h2{
+    font-weight: 700;
+    color:#121212;
+}
+
+.divider{
+    height: 1px;
+    background: #CACACA;
+}
+
 .button-white{
     background: #FFFFFF;
-    border-radius: 12px;
+    border-radius: 16px;
     border: 1px solid #EDEDED;
     color: #121212;
     text-align: center;
@@ -43,7 +53,7 @@ a:hover{
 
 .button-orange{
     background: #FF5634;
-    border-radius: 12px;
+    border-radius: 16px;
     border: 1px solid #FF5634;
     color: #FFFFFF;
     text-align: center;
@@ -65,9 +75,8 @@ header{
 
 .header__wrapper{
     display: grid;
-    width: 1440px;
     height: 120px;
-    grid-template-columns: 630px 405px 405px;
+    grid-template-columns: 680px 405px 405px;
 }
 
 .header__logo-png{
@@ -88,6 +97,7 @@ header{
 
 .header__buttons{
     margin-top: 32px;
+    margin-left: 15px;
 }
 
 .header__buttons_download{
@@ -96,6 +106,7 @@ header{
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
+    border-radius: 12px;
 }
 
 .header__buttons_register{
@@ -105,4 +116,103 @@ header{
     font-size: 16px;
     line-height: 18px;
     margin-left: 18px;
+    border-radius: 12px;
+}
+
+.promo{
+    margin-left: 110px;
+}
+
+.promo__slog{
+    margin-top: 160px;
+    color: #FF5634;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1.0800000429153442px;
+}
+
+.promo__title{
+    margin-top: 30px;
+    width: 515px;
+    font-size: 62px;
+    line-height: 71.98px;
+}
+
+.promo__subtitle{
+    margin-top: 15px;
+    width: 575px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30.01px;  
+}
+
+.promo__buttons{
+    margin-top: 40px;
+}
+
+.promo__buttons_register{
+    width: 250px;
+    height: 75px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.promo__buttons_download{
+    width: 205px;
+    height: 75px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.promo__divider{
+    margin-top: 60px;
+    width: 585px;
+}
+
+.promo__inform{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 195px 195px 195px;
+}
+
+.promo__inform_quantity{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.promo__inform_number{
+    font-size: 56px;
+}
+
+.promo__inform_plus{
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 66.02px;
+    color: #FF5634;
+}
+
+.promo__inform_text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.promo__images-phone{
+    position: absolute;
+    top: 260px;
+    right: 365px;
+    width: 355px;
+    height: 710px;
+    z-index: 10;
+}
+
+.promo__images-back{
+    position: absolute;
+    top: 120px;
+    right: 0px;
+    width: 600px;
+    height: 915px;
 }
