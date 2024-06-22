@@ -324,3 +324,81 @@ header{
     margin: 200px 0 0 110px;
     width: 1300px;
 }
+
+.reasons{
+    position: relative;
+    margin-left: 110px;
+}
+
+.reasons__title{
+    padding-top: 235px;
+    width: 485px;
+}
+
+.reasons__subtitle{
+    margin-top: 15px;
+    width: 540px;
+}
+
+.reasons__blocks{
+    margin-top: 35px;
+    display: grid;
+    width: 600px;
+    grid-template-columns: 275px 275px;
+    grid-column-gap: 50px;
+    grid-template-rows: 175px 175px;
+    grid-row-gap: 50px;
+}
+
+.reasons__blocks_image{
+    width: 65px;
+    height: 55px;
+}
+
+.reasons__blocks_title{
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28.01px;
+}
+
+.reasons__blocks_subtitle{
+    font-size: 14px;
+    line-height: 30.01px;
+}
+
+.reasons__images-burger{
+    position: absolute;
+    width: 455px;
+    height: 650px;
+    top: 200px;
+    right: 110px;
+    z-index: 10;
+}
+
+.reasons__images-phone{
+    position: absolute;
+    width: 285px;
+    height: 570px;
+    top: 270px;
+    right: 425px;
+}
+
+.reasons__buttons{
+    margin: 110px 0 0 370px;
+}
+
+.reasons__buttons_register{
+    width: 250px;
+    height: 75px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.reasons__buttons_download{
+    margin-left: 30px;
+    width: 205px;
+    height: 75px;
+    font-size: 18px;
+    font-weight: 400;
+}
